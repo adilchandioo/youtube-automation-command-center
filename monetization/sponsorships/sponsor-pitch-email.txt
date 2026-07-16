@@ -1,0 +1,59 @@
+# Sponsor Pitch Email Template
+# Send to brands whose products you genuinely use and want to recommend.
+
+SUBJECT: Partnership idea — {{BRAND_NAME}} × {{CHANNEL_NAME}} ({{N_SUBS}} subscribers)
+
+Hi {{FIRST_NAME}},
+
+I'm {{YOUR_NAME}}, creator of {{CHANNEL_NAME}} on YouTube. We make videos about {{NICHE}} for an audience of {{N_SUBS}} active subscribers, with ~{{VIEWS_PER_MONTH}} monthly views.
+
+Our audience is {{AVATAR_DESCRIPTION}} — exactly the customer {{BRAND_NAME}} is trying to reach.
+
+I've been using {{PRODUCT_NAME}} personally for {{TIME_PERIOD}} and love it because {{GENUINE_REASON}}. I'd love to feature your tool in an upcoming video — and I have one next week about {{TOPIC}} where your product would fit perfectly.
+
+Here's what I can offer:
+- 60–90 second dedicated integration in a video on my main channel (~{{VIEWS_EXPECTED}} expected views in 30 days)
+- 30-day pinned top comment with your link
+- Link in description + end-screen card
+- Optional: 1 dedicated Short pre/post publish (100k-300k expected additional views)
+
+Stats from my last 5 integrations:
+- Average CTR to sponsor link: {{CTR}}%
+- Average conversions: {{CONVERSIONS}} per video
+- Example case study: {{EXAMPLE_BRAND}} got {{EXAMPLE_RESULT}} from their integration with me.
+
+Rate for this package: ${{RATE}} flat fee.
+I'm also open to performance bonuses (% of sale) if you prefer a hybrid model.
+
+If this sounds interesting, I'd love to jump on a quick 15-min call this week. Does {{DAY_1}} or {{DAY_2}} at {{TIME}} work for you?
+
+If not the right fit, no worries at all — I'll keep recommending {{PRODUCT_NAME}} to my audience either way, since I genuinely use it.
+
+Best,
+{{YOUR_NAME}}
+{{CHANNEL_NAME}}
+{{PORTFOLIO_LINK}} (link to media kit / previous sponsors)
+{{BUSINESS_EMAIL}}
+
+---
+
+## Follow-up (if no reply in 5 days):
+
+Hi {{FIRST_NAME}}, just floating this back up in case it got buried. Happy to send my full media pack with audience demographics if helpful.
+
+No pressure either way — just wanted to make sure you saw it!
+
+Best,
+{{YOUR_NAME}}
+
+---
+
+## Media Kit Stats to Prepare (attach PDF)
+- Channel name + logo
+- Sub count + monthly views
+- Audience demographics (age, gender split, top countries, top interests) — from YouTube Analytics Audience tab
+- Top 10 videos with view counts
+- Previous brand partners (with logos)
+- Average CTR on past integrations
+- Rate card (integrations, dedicated Shorts, email send, package deals)
+- Testimonials from past sponsors

@@ -1,0 +1,62 @@
+# PROMPT: YouTube Shorts Script (30-55 seconds)
+# For use with GPT-4o-mini (cheaper, fast) or Claude
+
+---
+
+You write viral YouTube Shorts in the {{NICHE}} niche. Your scripts get 1M+ views.
+
+TASK: Write a 40-second vertical YouTube Short script (~100 words) on this topic: {{TOPIC}}
+
+The short is for channel "{{CHANNEL_NAME}}". Brand voice: {{VOICE_TONE}}
+
+---
+
+## STRUCTURE — every second counts:
+
+### SEC 0-3: PATTERN INTERRUPT HOOK (visually + verbally)
+- Open MID-SENTENCE or with a shocking claim (NO "hey guys what's up")
+- Example hooks:
+  - "I just got banned from Upwork for telling you this."
+  - "$47,000/month — with ZERO employees."
+  - "Stop drinking coffee. Here's why."
+  - HOLD UP [object] on camera, stare at camera for 1 beat, then speak
+- VISUAL: Quick zoom, jump cut, or text flash matching the hook
+
+### SEC 3-30: THE VALUE / STORY
+- Deliver ONE single tip/insight/story
+- Be specific — no fluff
+- Every 5-8 seconds a visual cut (zooms, captions pop up, B-roll changes)
+- Text-on-screen EVERY major claim (70% watch without sound)
+
+### SEC 30-45: PAYOFF
+- Deliver the "oh wow" moment — the twist, the final stat, the emotional beat
+
+### SEC 45-50: CTA
+- "Want to know how I actually did this?" / "Watch the full video linked ABOVE"
+- (Arrow pointing UP to long-form video in end screen)
+- "Follow for more"
+
+### PRODUCTION NOTES (in brackets for editor):
+- [OPEN: close up face, shocked expression]
+- [B-ROLL: bank statement screenshot]
+- [TEXT OVERLAY: "$47k/month NO employees"]
+- [ZOOM IN on number]
+- [END: arrow pointing UP, text: "Full video ↑"]
+
+## WRITING RULES:
+- Write like a text message to a friend — NOT a news anchor
+- Max 100 words. Cut everything else.
+- Use present tense, second person ("you")
+- Use pattern interrupts every 5 seconds (cut, zoom, text change)
+- No intro, no outro music bed — start talking immediately
+- End on the CTA mid-energy, don't trail off
+- Make them WANT to click to the long-form video (tease, don't fully reveal)
+- Vertical 9:16 framing (close-up face or close-up phone screen works best)
+
+---
+
+OUTPUT FORMAT:
+[SCRIPT TEXT with timestamps and visual cues]
+[CAPTIONS file — 2-3 words at a time, bold, centered lower third]
+[HASHTAGS for description: #shorts #niche #keyword, etc.]
+[Title for the Short (ALL CAPS or question, <60 chars)]

@@ -1,0 +1,87 @@
+# PROMPT: Thumbnail Design Brief (for Midjourney/DALL-E AND designer)
+
+---
+
+## PART 1 — AI Image Generation Prompt (for Midjourney / DALL-E)
+
+Use this to generate the main subject of the thumbnail. Copy and adapt:
+
+```
+YouTube thumbnail image, {{STYLE}} style.
+A {{SUBJECT_DESCRIPTION}} with an EXTREME EMOTION of {{EMOTION}} — wide eyes, raised eyebrows, open mouth, pointing at camera.
+{{CONTEXT_OBJECTS}} in background.
+Lighting: bright, high contrast, studio lighting on face.
+Colors: dominated by {{PRIMARY_COLOR}} and {{ACCENT_COLOR}}, dark background.
+Composition: tight close-up on face, subject taking 60% of frame, looking slightly to the right.
+Style: realistic photography, vibrant saturation, sharp focus, shallow depth of field.
+NO extra text, NO logos, NO watermarks, NO multiple hands, NO extra fingers.
+--ar 16:9 --style raw --v 6.0 --stylize 300
+```
+
+### Variables explained:
+- {{STYLE}}: "cinematic", "hyperrealistic", "YouTube reaction face", "animated"
+- {{SUBJECT_DESCRIPTION}}: e.g., "30-year-old man in black hoodie", "businesswoman in blazer", "curious person"
+- {{EMOTION}}: "shock/disbelief", "excitement/amazement", "confusion", "fear", "joy"
+- {{CONTEXT_OBJECTS}}: e.g., "laptop showing money numbers, floating cash", "AI robot", "stock chart going up"
+- {{PRIMARY_COLOR}} / {{ACCENT_COLOR}}: match channel brand colors (e.g., "#10b981 emerald green", "#f59e0b amber")
+
+---
+
+## PART 2 — Designer Brief (Canva/Photoshop composition)
+
+After AI generates the face/object, send this to your designer:
+
+```
+Please create 2 thumbnail variants for this video.
+
+CHANNEL: {{CHANNEL_NAME}}
+Brand fonts: {{FONT_NAME}} (e.g., Bebas Neue / Impact)
+Brand colors: Primary {{PRIMARY_COLOR}}, Accent {{ACCENT_COLOR}}, Background {{BG_COLOR}}
+
+VIDEO TITLE: {{TITLE}}
+VIDEO TOPIC: {{TOPIC}}
+
+VARIANT A (emotion/face focused):
+- Use the attached AI-generated face as the dominant element (60-70% of frame)
+- Add 1-3 words of big text MAX (example: "I GOT BANNED", "$893,000", "DON'T DO THIS")
+- Text in bold {{FONT_NAME}}, with thick black outline (4-6px) so it pops
+- Add arrow/red circle pointing at key element if needed
+- Background: slightly blurred B-roll from topic OR solid dark gradient with brand accent
+- Overall feel: shocking, curiosity-inducing
+
+VARIANT B (text/object focused):
+- Large text (3 words max) dominant, with one supporting object (e.g., big dollar sign, screenshot, arrow)
+- Use split layout — left side object, right side text (or vice versa)
+- High contrast, bright colors
+- More text-heavy but still readable at tiny mobile size
+- Same fonts/colors as Variant A
+
+SPECIFICATIONS:
+- 1280x720px, export as PNG or JPG, <2MB
+- Test at 10% zoom — must still read the text and identify the subject
+- No spoilers (don't reveal the ending/payoff)
+- No logos from competing brands
+- Look at top 3 competitor videos on this topic — do SOMETHING different so we don't blend in
+
+DELIVER: Two PNG files named CH-001-epXXX-thumb-a.png and CH-001-epXXX-thumb-b.png
+
+Reference thumbnails I like:
+{{REFERENCE_THUMBNAIL_LINKS_OR_DESCRIPTION}}
+```
+
+---
+
+## PART 3 — Title & Thumbnail Pairing Check
+
+Title and thumbnail must work TOGETHER as a curiosity machine:
+
+| If title is... | Thumbnail should... |
+|---|---|
+| Number-heavy ("5 Ways to X") | Show big number + face reaction |
+| Question ("Why is X banned?") | Show confused/shocked face + the X object |
+| Shocking statement ("I got fired for X") | Show frustrated/sad face + context object |
+| Tutorial ("How to X in 5 min") | Show step/result screenshot + finger pointing |
+| Story ("How I went from 0 to $1M") | Before/after split OR shocked face with money |
+
+Avoid: thumbnail SPOILING what the title is teasing (curiosity gap destroyed).
+Avoid: thumbnail emotion CONTRADICTING title tone (title says "terrifying mistake" but thumbnail shows smiling face).

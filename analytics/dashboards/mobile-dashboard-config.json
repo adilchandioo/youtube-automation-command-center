@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "dashboardTitle": "YouTube Command Center",
+  "refreshIntervalMinutes": 60,
+  "currency": "USD",
+  "channels": [
+    {
+      "id": "CH-001",
+      "name": "Side Hustle King",
+      "youtubeChannelId": "",
+      "niche": "make-money-online",
+      "brandColor": "#10b981",
+      "monetized": false,
+      "kpiTargets": {
+        "subsEndOfMonth": 100,
+        "viewsPerDay": 200,
+        "avgCtrPercent": 7,
+        "avgAvdPercent": 40,
+        "videosPerWeek": 3
+      }
+    }
+  ],
+  "alerts": {
+    "viralVideoViewsThreshold24h": 50000,
+    "lowCtrThreshold": 0.04,
+    "strikeAlert": true,
+    "revenueSpikeThreshold": 500
+  },
+  "revenueStreams": ["adsense", "affiliate", "sponsor", "digital_products", "membership"]
+}

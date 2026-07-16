@@ -1,0 +1,95 @@
+# Voiceover Generation Guide (ElevenLabs / TTS Best Practices)
+
+This isn't a prompt per se, but a guide + system prompt for consistent, human-sounding VO.
+
+---
+
+## Recommended ElevenLabs Settings
+
+| Setting | Value | Why |
+|---|---|---|
+| Voice | Choose per channel (Adam/Daniel/Rachel/Charlotte are solid defaults) | Consistency = brand |
+| Model | Eleven Turbo v2.5 or v2.5 (latest) | Best quality |
+| Stability | 0.35–0.45 | Lower = more expressive, varied. Higher = monotone. |
+| Similarity boost | 0.75–0.90 | Keep it sounding like the voice actor |
+| Style exaggeration | 0.30–0.50 | Adds emotional range without going crazy |
+| Speaker boost | ON | Helps audio cut through music |
+
+Generate 2–3 versions of each paragraph, pick the best. Use the "regen" button on bad sentences.
+
+---
+
+## Script Preparation Before Pasting
+
+Before pasting into TTS, CLEAN the script:
+1. **REMOVE** all visual cues like `[B-ROLL: ...]`, `[SCREENSHOT: ...]`
+2. **REMOVE** metadata block (titles/tags/thumbnail ideas)
+3. **REMOVE** timestamps and section markers like "HOOK:", "INTRO:", "BODY:"
+4. Add punctuation for pacing:
+   - Use `—` (em dash) for natural pauses mid-sentence
+   - Use `...` for dramatic pauses
+   - Use line breaks for sentence breaks
+5. Spell out numbers (ElevenLabs sometimes misreads numerals):
+   - "1,000,000" → "one million"
+   - "$47,000" → "forty-seven thousand dollars"
+   - "1984" → "nineteen eighty-four" (year) vs "one thousand nine hundred eighty-four" (number)
+6. Spell out acronyms on first use then switch: "Artificial Intelligence, or A-I...", then "AI" later
+7. Mark emphasis with CAPS or bold? Don't — ElevenLabs handles natural emphasis; over-mark it sounds forced.
+
+---
+
+## Pronunciation Fixes
+
+If ElevenLabs mispronounces a word:
+1. Open the Pronunciation Library in ElevenLabs
+2. Add respelling phonetically:
+   - "ChatGPT" → "chat G P T"
+   - "SaaS" → "sass"
+   - "Nikola Tesla" → confirm it says "NIK-oh-la", not "ni-KOH-la"
+3. Alternative: respell directly in script:
+   - "entrepreneur" → "on-truh-pruh-NOOR" won't work; instead rephrase sentence to avoid it, or add a short audio clip of correct pronunciation
+
+---
+
+## Post-Generation Quality Check
+
+Listen ALL THE WAY THROUGH once before sending to editor. Flag/regen:
+- [ ] Mumbled words / gibberish
+- [ ] Wrong emphasis ("re-CORD" vs "RE-cord")
+- [ ] Sudden voice changes (rare, but happens)
+- [ ] Incorrect pronunciation of names/brands
+- [ ] Breath sounds in wrong places (use ElevenLabs auto-breath reduction)
+- [ ] Audio clipping / distortion (turn down output volume slightly)
+- [ ] Pace too fast (>170 WPM) or too slow (<130 WPM)
+
+---
+
+## Example "Clean" VO Script (input to ElevenLabs)
+
+```
+I just got an email from YouTube I never thought I'd get.
+[slight pause — use comma or new paragraph]
+They were asking me to speak at their creator summit.
+But here's the kicker — three years ago, I was dead broke.
+I was working a dead-end job making $14 an hour...
+...sleeping on my cousin's couch...
+...and wondering if I'd ever make anything of my life.
+In this video, I'm going to show you the exact three things I did to go from that couch...
+...to running a 7-figure YouTube business.
+And no, it wasn't luck. And it wasn't rich parents.
+```
+
+Note the natural breaks — short paragraphs = natural pauses. The TTS engine reads short paragraphs with better rhythm than long blocks.
+
+---
+
+## Background Music Mixing Notes (for editor)
+
+- Background music should be **-20 to -24dB** relative to voice
+- Duck music -6dB during key moments (revelations, emotional beats)
+- Fade music in/out at start/end over 1.5 seconds
+- Use instrumental lo-fi / ambient / corporate beats matching niche:
+  - Finance/tech: upbeat electronic, light synth
+  - Self-improvement: ambient piano, lo-fi
+  - History/documentary: orchestral, cinematic
+  - Scary/shocking stories: tense drones (low volume!)
