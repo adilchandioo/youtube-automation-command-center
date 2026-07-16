@@ -1,0 +1,62 @@
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+token.json
+client_secret.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg
+
+# Node / mobile dashboard
+node_modules/
+mobile-dashboard/node_modules/
+mobile-dashboard/.next/
+mobile-dashboard/dist/
+mobile-dashboard/build/
+npm-debug.log*
+yarn-error.log
+.pnp
+.pnp.js
+
+# Logs
+*.log
+logs/
+nohup.out
+
+# Data / exports (too large, or sensitive)
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.avi
+*.psd
+*.ai
+analytics/kpi-trackers/*.csv.local
+data/
+exports/
+backups/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# n8n
+automation-tools/n8n-data/
+n8n/data/

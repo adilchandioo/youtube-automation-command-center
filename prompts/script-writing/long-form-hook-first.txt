@@ -1,0 +1,98 @@
+# PROMPT: Long-Form Script (Hook-First Formula)
+# Use with GPT-4o or Claude 3.5 Sonnet
+# Copy everything below, replace {{variables}}, paste into ChatGPT/Claude.
+
+---
+
+You are a top-tier YouTube script writer whose videos consistently get 1M+ views in the {{NICHE}} niche.
+
+TASK: Write a {{{LENGTH_MIN}}ES long-form YouTube script (~{{WORDS}} words at 150 wpm) for the channel "{{CHANNEL_NAME}}" targeting this specific viewer:
+
+CHANNEL BRAND:
+- Voice: {{VOICE_DESCRIPTION}} (e.g., "punchy American male, finance bro energy, 160 WPM")
+- Tone: {{TONE}} (e.g., "Direct, no fluff, numbers-backed, controversial takes")
+- Style: Short sentences. Simple words (6th-grade reading level). Rhetorical questions.
+- Avatar: {{AVATAR_DESCRIPTION}} (e.g., "22-38 year old stuck in 9-5 job, wants out via side hustles, skeptical of gurus")
+
+VIDEO TOPIC: {{TOPIC}}
+PRIMARY KEYWORD: {{KEYWORD}}
+SECONDARY KEYWORDS: {{KEYWORD_LIST}}
+
+REFERENCE VIDEOS (for angle — DO NOT copy):
+{{REFERENCE_URLS_OR_NOTES}}
+
+---
+
+## SCRIPT REQUIREMENTS:
+
+### 1. OPENING HOOK (0-30 seconds) — MOST IMPORTANT PART
+- Start with ONE of these hook types:
+  a) SHOCKING NUMBER: "In 2026, a single AI side hustle made a 23-year-old $893,000 — and nobody's talking about it."
+  b) CONTROVERSY: "Every guru is lying to you about passive income. Here's the ugly truth."
+  c) CURIOSITY GAP: "I stumbled on this trick by accident... and it doubled my income in 30 days."
+  d) STORY: "Last month, a guy messaged me saying he was broke. 14 days later he made his first $1,000. Here's exactly what he did."
+  e) DEFIANCE: "Don't get a job in 2026. I'm dead serious."
+- State the EXACT payoff ("By the end of this video you'll know...")
+- Create a curiosity gap so they MUST keep watching
+- DO NOT say "hey guys welcome back to the channel" — that's boring, kill it
+
+### 2. INTRO (30-60 sec)
+- Quick 1-sentence channel positioning ("On this channel we show you how to make money online without the BS")
+- Soft CTA: "If that sounds like something you want, hit subscribe — I don't waste your time"
+- Tease the BEST/most surprising thing coming up later
+
+### 3. BODY (main content, ~70% of script)
+- 3-5 main points, numbered
+- For EACH point:
+  - CLEAR CLAIM ("Side hustle #3 pays $500-800/week and you can start today")
+  - EVIDENCE: Specific stat, screenshot reference, story, or example ("My friend Rahul started this 6 months ago and now makes $1,200/week")
+  - SPECIFIC HOW-TO: Actually tell them how (don't be vague like "start a blog" — say "Go to upwork.com, create a profile focused on AI writing, set your rate at $25/hr, apply to these 3 job types...")
+  - MINI-CONCLUSION / transition line
+- EVERY 90 SECONDS insert a mini-hook to keep retention ("Wait — this next one? It's the side hustle I would do if I was starting over from zero.")
+- AT THE 50% MARK: a mid-roll retention hook ("We're halfway through — and the last two are the ones that actually made me money. Don't leave now.")
+- Add [VISUAL CUES IN BRACKETS] for the editor:
+  [B-ROLL: person typing on laptop]
+  [SCREEN RECORDING: Upwork job listings]
+  [GRAPH: earnings chart]
+  [ANIMATION: text on screen]
+  [POP-UP: "Subscribe now"]
+
+### 4. OUTRO & CTA (last 45-60 seconds)
+- Quick recap ("Those are the 5 side hustles that actually work in 2026")
+- Hard CTA: LIKE ("If you got value, hit that like button — it genuinely helps the channel")
+- SUBSCRIBE + notification bell
+- COMMENT PROMPT: Ask a specific question ("Which of these 5 are you trying this week? Drop it in the comments — I reply to every comment for the first hour.")
+- AFFILIATE / PRODUCT PLUG if provided: {{AFFILIATE_CTA}}
+- Tease next video ("On Wednesday I'm showing you the AI tool that replaces 5 full-time employees — you don't want to miss that one. Subscribe so you don't.")
+
+### 5. METADATA (at the top of the script)
+TITLE OPTIONS (give 5, max 70 chars each, all containing the primary keyword, some using numbers, some using curiosity, some using controversy):
+1.
+2.
+3.
+4.
+5.
+
+TAGS (15 tags, comma-separated, mix of broad and long-tail):
+
+THUMBNAIL IDEA (describe 2 variants — one face/emotion focused, one text/object focused):
+- Variant A:
+- Variant B:
+
+DESCRIPTION SUMMARY (first 2 lines that show in search):
+
+---
+
+## WRITING RULES:
+- Conversational, like talking to a friend
+- NEVER use jargon without explaining it
+- Short sentences. Fragments OK. Like this.
+- Use "you" constantly (not "people" or "one")
+- Contractions are fine ("don't", "can't", "won't")
+- Avoid passive voice ("X was done by Y" → "Y did X")
+- Use specific numbers ("7 out of 10", "earns $847/week", not "lots" or "a lot")
+- Add at least ONE controversial or unexpected take
+- DO NOT use generic openings ("In today's video...", "Welcome to our channel...")
+- DO NOT end sections with "and that's it" or "hope you enjoyed" — keep moving forward
+- NO filler. Every sentence must teach or hook.
+- Write 150 words per minute of target runtime.

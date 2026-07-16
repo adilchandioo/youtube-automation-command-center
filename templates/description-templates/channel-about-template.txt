@@ -1,0 +1,67 @@
+# Channel "About" Section Template
+
+## SHORT DESCRIPTION (first line — shows on channel homepage, 140 chars)
+> {{WHO}} for {{WHO_X}} who want {{WHAT_RESULT}} — without {{THING_THEY_HATE}}. New videos every {{SCHEDULE}}!
+
+Example:
+> "Actionable side hustle and make-money-online strategies for people stuck in a 9–5 who want financial freedom — without the guru BS. New videos Mon/Wed/Fri!"
+
+---
+
+## LONG DESCRIPTION (full "About" tab, 1000 chars max)
+
+Welcome to {{CHANNEL_NAME}} — your no-fluff guide to {{CHANNEL_PROMISE}}.
+
+If you're:
+✅ {{AVATAR_POINT_1}} (e.g., "stuck in a 9-5 you hate")
+✅ {{AVATAR_POINT_2}} (e.g., "tired of fake gurus selling courses that don't work")
+✅ {{AVATAR_POINT_3}} (e.g., "ready to actually earn extra income online")
+
+...you're in the right place.
+
+Every week I drop 3 videos showing you:
+→ {{CONTENT_PILLAR_1}} (e.g., "Proven side hustles that actually pay in {{YEAR}}")
+→ {{CONTENT_PILLAR_2}} (e.g., "Step-by-step tutorials for making money online")
+→ {{CONTENT_PILLAR_3}} (e.g., "Honest reviews of money-making tools, apps, and platforms")
+→ {{CONTENT_PILLAR_4_IF_APPLICABLE}} (e.g., "Behind-the-scenes of my own online business journey")
+
+I don't do hype. I don't sell the dream. I show you what works, what doesn't, and exactly how to start — today.
+
+If that sounds like something you want more of, hit SUBSCRIBE and ring the notification bell so you don't miss a video.
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+📱 FOLLOW ME
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Instagram → {{INSTAGRAM_LINK}}
+Twitter/X → {{TWITTER_LINK}}
+TikTok → {{TIKTOK_LINK}}
+My Website / Newsletter → {{WEBSITE_LINK}}
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+💼 FOR BUSINESS INQUIRIES
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Email: {{BUSINESS_EMAIL}} (sponsorships and collaborations only — no personal coaching)
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+⚖️ DISCLAIMER
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Links in the description may include affiliate links, which means I earn a small commission if you make a purchase (at no extra cost to you). All content is for educational purposes only and does not constitute financial, legal, or medical advice. Always do your own research.
+
+---
+
+## CHANNEL LINKS (add these in YouTube Studio → Customization → Links)
+- First link (shown on banner): Newsletter / Lead Magnet (MOST important)
+- Second link: Your website / most important resource
+- Third link: Instagram
+- Fourth link: Twitter/X
+- Fifth link: TikTok
+
+## CHANNEL KEYWORDS (in Studio → Settings → Advanced)
+Add a comma-separated list of 20-30 keywords including:
+- Channel name
+- Primary keyword (e.g., "side hustles", "make money online")
+- Secondary keywords
+- Competitor channel names (optional — so you show up in "related channels")
+
+Example:
+"side hustle, side hustles, make money online, how to make money online, passive income, work from home, online jobs, side hustle 2026, make money online 2026, easy side hustles, best side hustles, remote jobs, {{CHANNEL_NAME}}"

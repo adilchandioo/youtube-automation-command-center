@@ -1,0 +1,124 @@
+# PROMPTS: SEO — Titles, Tags, Descriptions
+
+Use these after the script is written. Model: GPT-4o-mini (cheap and fast for this).
+
+---
+
+## PROMPT 1: Title Generator (10 options)
+
+```
+You are a YouTube SEO expert. Your titles consistently get 10%+ CTR.
+
+Generate 10 YouTube title options for a video about: {{VIDEO_TOPIC}}
+Channel niche: {{NICHE}}
+Primary keyword (must be in most titles): {{PRIMARY_KEYWORD}}
+Target video length: {{LENGTH_MIN}} minutes
+
+Rules for titles:
+- Max 70 characters (critical! longer gets truncated)
+- Primary keyword as close to the START as possible
+- Mix these formulas (use at least 3 different ones):
+  1. NUMBERED LIST: "5 X That Will Change Your Y in 2026"
+  2. SHOCKING CONTROVERSY: "Why X Is LYING To You About Y"
+  3. CURIOSITY GAP: "I Tried X for 30 Days — Here's What Happened"
+  4. HOW-TO: "How to X in 2026 (Step by Step)"
+  5. WARNING: "Never Do X — Here's Why"
+  6. DEADLINE/URGENCY: "Do X Before Y Hits in 2026"
+  7. QUESTION: "Is X Actually Worth It in 2026?"
+  8. CELEBRITY/AUTHORITY: "What X Teaches Us About Y"
+- Use specific years ("2026") for recency bias
+- Use ALL CAPS on one power word (e.g., "SHOCKING", "PROVEN", "EXPOSED")
+- NO clickbait that doesn't match video content
+- NO clickbait emojis (avoid — hurt advertiser-friendliness)
+- Use parentheses () for curiosity bumps: "(#3 blew my mind)"
+
+Output: numbered list of 10 titles, each with character count.
+```
+
+---
+
+## PROMPT 2: Tag Generator
+
+```
+You are a YouTube tags expert.
+
+Generate 15 tags for a YouTube video about: {{VIDEO_TOPIC}}
+Primary keyword: {{PRIMARY_KEYWORD}}
+Niche: {{NICHE}}
+
+Rules:
+- Mix 3 levels of tag:
+  * BROAD (1-2 words, high search): e.g., "side hustles" — 3-4 tags
+  * MID-TAIL (2-3 words, moderate search): e.g., "side hustles 2026" — 6-8 tags
+  * LONG-TAIL (4+ words, lower search but high intent): e.g., "best side hustles for beginners online" — 4-5 tags
+- First tag = primary keyword EXACT
+- Last tag = channel brand tag (e.g., "Side Hustle King")
+- All lowercase, no punctuation except where natural
+- Total tag character count under 500 (YouTube limit)
+- No repeated words as standalone tags
+- Include 1-2 of the exact competitor video tags (research manually)
+
+Output as comma-separated list, one line.
+```
+
+---
+
+## PROMPT 3: Video Description
+
+```
+Write a YouTube video description optimized for SEO for this video:
+
+Title: {{TITLE}}
+Topic: {{VIDEO_TOPIC}}
+Primary keyword: {{PRIMARY_KEYWORD}}
+Keywords: {{KEYWORDS_LIST}}
+Video chapters (with timestamps): {{CHAPTERS_OR_SAY_AUTO}}
+Affiliate links (if any): {{AFFILIATE_LINKS}}
+Lead magnet / free resource: {{LEAD_MAGENT_OR_NONE}}
+Channel CTA: {{CHANNEL_CTA}}
+
+RULES:
+1. FIRST 2 LINES (most important — show in search results):
+   - Include primary keyword
+   - Summarize the value proposition
+   - 150-180 characters
+   - Must make someone want to click
+
+2. REST OF DESCRIPTION:
+   - Short paragraphs (2-3 sentences each)
+   - Naturally include secondary keywords 3-5 times
+   - Include TIMESTAMPS/CHAPTERS (labeled "0:00 Intro", "1:23 First point", etc.)
+   - Bullet list of what viewer will learn
+   - Affiliate disclosure: "Some links in description are affiliate links, meaning we earn a commission if you make a purchase — at no extra cost to you. Thank you for supporting the channel!"
+   - Any relevant disclaimers (financial/medical)
+   - Call to action to like/subscribe
+   - 3-5 related video links from same channel
+   - 2-3 playlists links
+   - Hashtags at end: 3-5 relevant hashtags (#niche #keyword #channelname)
+
+Aim for 400-700 words total. NO keyword stuffing.
+```
+
+---
+
+## PROMPT 4: End Screen / Card Strategy
+
+```
+For this YouTube video on "{{VIDEO_TOPIC}}" in the "{{NICHE}}" niche:
+
+Recommend:
+1. Best END SCREEN layout (which elements to place in the last 20 seconds):
+   - Video or playlist? (best for watch time: point to a RELATED video, not the newest)
+   - Subscribe button placement
+   - External link? (website / lead magnet — only if channel is in YPP and eligible)
+
+2. Best CARDS (placed at relevant points during video, not all at end):
+   - At the 60% mark: link to the most relevant related video (when viewer is engaged)
+   - At 80% mark: link to playlist of entire series
+   - Poll card if appropriate (increases engagement)
+
+3. PINNED COMMENT (text to use):
+   - Question for engagement
+   - Teaser for lead magnet / affiliate
+   - Reply to your own pinned comment with the actual resource link
+```

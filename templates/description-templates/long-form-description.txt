@@ -1,0 +1,71 @@
+# Long-Form Video Description Template
+# Copy, fill variables, paste into YouTube description box.
+
+{{HOOK_SUMMARY_2_LINES}}
+Make sure you watch to the end because number {{BEST_POINT_NUMBER}} is the one that made me personally ${{RESULT_AMOUNT}} and nobody is talking about it.
+
+In this video I break down:
+{{POINT_1}}
+{{POINT_2}}
+{{POINT_3}}
+{{POINT_4}}
+{{POINT_5_IF_APPLICABLE}}
+
+⏱ TIMESTAMPS:
+0:00 Intro / Hook
+{{CH1_TIME}} {{CH1_TITLE}}
+{{CH2_TIME}} {{CH2_TITLE}}
+{{CH3_TIME}} {{CH3_TITLE}}
+{{CH4_TIME}} {{CH4_TITLE}}
+{{CTA_TIME}} Final Thoughts & How to Start
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+💸 FREE RESOURCES
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+{{LEAD_MAGNET_LINE}} — grab it here: {{LEAD_MAGNET_LINK}}
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+🔗 MENTIONED IN THIS VIDEO
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+{{AFFILIATE_LINKS_SECTION}}
+- {{TOOL_1_NAME}}: {{AFFILIATE_LINK_1}}
+- {{TOOL_2_NAME}}: {{AFFILIATE_LINK_2}}
+[Remove section if no affiliate links]
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+📺 WATCH NEXT (if you loved this video)
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+{{RELATED_VIDEO_1_LINK}} — "{{RELATED_VIDEO_1_TITLE}}"
+{{RELATED_VIDEO_2_LINK}} — "{{RELATED_VIDEO_2_TITLE}}"
+{{RELATED_VIDEO_3_LINK}} — "{{RELATED_VIDEO_3_TITLE}}"
+
+📺 BEST PLAYLISTS:
+{{PLAYLIST_1_LINK}} — {{PLAYLIST_1_TITLE}}
+{{PLAYLIST_2_LINK}} — {{PLAYLIST_2_TITLE}}
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❤️ SUBSCRIBE FOR MORE
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Subscribe for more {{NICHE}} content every week:
+{{CHANNEL_SUBSCRIBE_LINK}}
+
+Hit the notification bell so you don't miss the next one!
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+💬 LET'S CONNECT
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Comment below with your biggest takeaway! I reply to every comment in the first hour after posting.
+Instagram: {{INSTAGRAM_HANDLE_OR_REMOVE}}
+Twitter/X: {{TWITTER_HANDLE_OR_REMOVE}}
+Email / Newsletter: {{NEWSLETTER_LINK}}
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+⚖️ DISCLOSURES & DISCLAIMERS
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+AFFILIATE DISCLOSURE: Some of the links in this description are affiliate links. That means if you click a link and make a purchase or sign up, I may earn a small commission — at NO extra cost to you. I only recommend tools I personally use and trust. Thank you for supporting the channel!
+
+{{FINANCIAL_DISCLAIMER_IF_APPLICABLE}}: This video is for educational and entertainment purposes only. It does not constitute financial advice. There is no guarantee you'll earn any money using the techniques and ideas in this video. I am not a financial advisor, and anything I say on this YouTube channel should not be seen as financial advice. Always do your own research and due diligence before making any financial decisions. Your results depend entirely on your work ethic, experience, and execution.
+
+{{HEALTH_DISCLAIMER_IF_APPLICABLE}}: This content is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or qualified health provider.
+
+#{{KEYWORD_1}} #{{KEYWORD_2}} #{{NICHE_TAG}} #{{CHANNEL_HANDLE}} {{YEAR}}
